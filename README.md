@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto implementa o **algoritmo de Karatsuba**, que é uma técnica eficiente para multiplicação de inteiros grandes. O algoritmo de Karatsuba melhora a eficiência da multiplicação convencional (que tem complexidade \(O(n^2)\)) reduzindo-a para aproximadamente \(O(n^{\log_2{3}}) \approx O(n^{1.585})\), o que torna a multiplicação de grandes números muito mais rápida.
+Este projeto implementa o **algoritmo de Karatsuba**, que é uma técnica eficiente para multiplicação de inteiros grandes. O algoritmo de Karatsuba melhora a eficiência da multiplicação convencional (que tem complexidade O(n²)) reduzindo-a para aproximadamente O(n^log₂(3)) ≈ O(n^1.585), o que torna a multiplicação de grandes números muito mais rápida.
 
 A implementação é feita em Python e é capaz de multiplicar dois números inteiros grandes de forma recursiva, dividindo-os em partes menores e usando três multiplicações recursivas para obter o resultado final.
 
